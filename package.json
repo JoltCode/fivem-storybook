@@ -1,16 +1,16 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-addon-fivem",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "undefined",
   "keywords": [
-    "storybook-addons"
+    undefined
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "undefined"
   },
   "license": "MIT",
-  "author": "package-author",
+  "author": "JoltCode <joe@joecc.dev>",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -32,7 +32,6 @@
     "*.d.ts"
   ],
   "scripts": {
-    "postinstall": "node scripts/welcome.js",
     "clean": "rimraf ./dist",
     "prebuild": "npm run clean",
     "build": "tsup",
@@ -89,9 +88,9 @@
     "previewEntries": ["src/preview.ts"]
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "storybook-addon-fivem",
     "supportedFrameworks": [
-      "supported-frameworks"
+      undefined
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
