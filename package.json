@@ -2,9 +2,7 @@
   "name": "storybook-addon-fivem",
   "version": "0.0.0",
   "description": "undefined",
-  "keywords": [
-    undefined
-  ],
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "undefined"
@@ -83,15 +81,19 @@
     "access": "public"
   },
   "bundler": {
-    "exportEntries": ["src/index.ts"],
-    "managerEntries": ["src/manager.ts"],
-    "previewEntries": ["src/preview.ts"]
+    "exportEntries": [
+      "src/index.ts"
+    ],
+    "managerEntries": [
+      "src/manager.ts"
+    ],
+    "previewEntries": [
+      "src/preview.ts"
+    ]
   },
   "storybook": {
     "displayName": "storybook-addon-fivem",
-    "supportedFrameworks": [
-      undefined
-    ],
+    "supportedFrameworks": [],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
 }
